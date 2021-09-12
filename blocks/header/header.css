@@ -1,0 +1,7 @@
+.header {
+  /* Grid element settings */
+  grid-area: header;
+  /* Flex container settings */
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,7 @@
+.footer {
+  /* Grid element settings */
+  grid-area: footer;
+  /* Flex container settings */
+  display: flex;
+  justify-content: space-between;
+}

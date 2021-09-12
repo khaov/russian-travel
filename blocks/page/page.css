@@ -1,0 +1,14 @@
+.page {
+  /* Grid container settings */
+  display: grid;
+  grid-template-columns: minmax(min-content, 1280px);
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #2A2C2F;
+  font-family: 'Inter', 'Arial', sans-serif;
+}
