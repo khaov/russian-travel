@@ -5,4 +5,5 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding: 28px 48px 0;
 }
