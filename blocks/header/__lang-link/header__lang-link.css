@@ -4,4 +4,9 @@
   font-weight: normal;
   color: #fff;
   text-decoration: none;
+  transition: .3s;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }
