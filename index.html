@@ -76,19 +76,45 @@
 
         <!-- Photo grid -->
 
-        <section class="photo-grid">
-          <img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="Фотография купе поезда">
-          <img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg" alt="Фотография Большого Кавказа">
-          <img class="photo-grid__item" src="images/photo-grid-tuman.jpg" alt="Фотография тумана в поле">
-          <img class="photo-grid__item" src="images/photo-grid-sochi.jpg" alt="Фотография леса в Сочи">
-          <img class="photo-grid__item" src="images/photo-grid-arisa.jpg" alt="Фотография заледеневшего озера Байкал">
-          <img class="photo-grid__item" src="images/photo-grid-baikal.jpg" alt="Фотография побережья Байкала">
-          <img class="photo-grid__item" src="images/photo-grid-elbrus.jpg" alt="Фотография горы Эльбрус">
-          <img class="photo-grid__item" src="images/photo-grid-kondratiev.jpg" alt="Фотография волнореза в Сочи">
-          <img class="photo-grid__item" src="images/photo-grid-kamchatka-1.jpg" alt="Фотография гор Камчатки">
-          <img class="photo-grid__item" src="images/photo-grid-kamchatka-2.jpg" alt="Фотография гор Камчатки">
-          <img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="Фотография побережья Байкала">
-          <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="Фотография природного парка Ергаки">
+        <section class="photo-grid" aria-label="Галерея">
+          <ul class="photo-grid__list">
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-train.jpg" alt="Фотография купе поезда">
+            </li>
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-atharva-tulsi.jpg" alt="Фотография Большого Кавказа">
+            </li>
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-tuman.jpg" alt="Фотография тумана в поле">
+            </li>
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-sochi.jpg" alt="Фотография леса в Сочи">
+            </li>
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-arisa.jpg" alt="Фотография заледеневшего озера Байкал">
+            </li>
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-baikal.jpg" alt="Фотография побережья Байкала">
+            </li>
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-elbrus.jpg" alt="Фотография горы Эльбрус">
+            </li>
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-kondratiev.jpg" alt="Фотография волнореза в Сочи">
+            </li>
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-kamchatka-1.jpg" alt="Фотография гор Камчатки">
+            </li>
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-kamchatka-2.jpg" alt="Фотография гор Камчатки">
+            </li>
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-baikal-2.jpg" alt="Фотография побережья Байкала">
+            </li>
+            <li class="photo-grid__item">
+              <img class="photo-grid__image" src="images/photo-grid-ergaki.jpg" alt="Фотография природного парка Ергаки">
+            </li>
+          </ul>
         </section>
 
         <!-- Places -->
@@ -176,18 +202,45 @@
         <!-- Cover -->
 
         <section class="cover">
-          <a class="cover__overlay" href="" title="">
+          <a class="cover__link" href="" title="">
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
           </a>
-          <!--
-          <img class="cover__background" src="images/cover-trains.jpg" alt="">
-          -->
         </section>
 
       </main>
 
       <!-- Footer -->
+
+      <footer class="footer">
+
+        <!-- Menu -->
+
+        <nav>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="https://yandex.ru/maps" title="Открыть сервис «Яндекс.Карты»" target="_blank">Карты</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="https://yandex.ru/pogoda" title="Открыть сервис «Яндекс.Погода»" target="_blank">Погода</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="https://rasp.yandex.ru" title="Открыть сервис «Яндекс.Расписания»" target="_blank">Расписание</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="https://calendar.yandex.ru" title="Открыть сервис «Яндекс.Календарь»" target="_blank">Календарь</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="https://travel.yandex.ru" title="Открыть сервис «Яндекс.Путешествия»" target="_blank">Путешествия</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Copyright -->
+
+        <p class="footer__copyright">&copy; 2020. Артём Хаов</p>
+
+      </footer>
 
     </div>
   </body>

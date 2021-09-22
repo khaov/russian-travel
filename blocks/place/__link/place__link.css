@@ -5,4 +5,9 @@
   font-weight: 400;
   color: #fff;
   text-decoration: none;
+  transition: .3s;
+}
+
+.place__link:hover {
+  opacity: .8;
 }
