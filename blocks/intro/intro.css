@@ -1,3 +1,6 @@
 .intro {
-  margin: 92px 0;
+  max-width: 1080px;
+  margin: 92px auto;
+  padding: 0 48px;
+  box-sizing: border-box;
 }
