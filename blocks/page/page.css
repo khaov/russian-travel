@@ -10,4 +10,6 @@
   min-height: 100vh;
   background-color: #2a2c2f;
   font-family: 'Inter', 'Arial', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
