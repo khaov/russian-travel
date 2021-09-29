@@ -20,4 +20,4 @@ HTML, CSS
 
 ## GitHub Pages ##
 
-[Посмотреть проект на GitHub Pages](https://khaov.github.io/russian-travel/index.html "Проект «Путешествие по России»")
+[Посмотреть проект на GitHub Pages](https://khaov.github.io/russian-travel "Проект «Путешествие по России»")
